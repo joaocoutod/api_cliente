@@ -9,7 +9,7 @@ Configuração
 
 <p>arquivo: C:\xampp\apache\conf\extra\httpd-vhosts.conf </p>
 
-´´´<VirtualHost *:80>
+```<VirtualHost *:80>
     ServerAdmin webmaster@local-api-cliente.com.br
     DocumentRoot "C:\xampp\htdocs\projetos\api\api_cliente"
     ServerName local-api-cliente.com.br
