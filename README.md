@@ -2,14 +2,14 @@
 
 Configuração
 
-<p>arquivo: c:\Windows\System32\drivers\etc\hosts </p>
+<p>arquivo o comando abaixo no final do arquivo: c:\Windows\System32\drivers\etc\hosts </p>
 ```
 127.0.0.1 local-api-cliente.com.br
 ```
 
 <br>
 
-<p>arquivo: C:\xampp\apache\conf\extra\httpd-vhosts.conf </p>
+<p>arquivo o codiog abaixo no final do arquivo: C:\xampp\apache\conf\extra\httpd-vhosts.conf </p>
 
 ```
     <VirtualHost *:80>
