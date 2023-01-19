@@ -1,5 +1,11 @@
 ## Configuração
 
+<p>Ferramentas para teste</p>
+<li>Xampp</li>
+<li>Postman</li>
+
+<br>
+
 <p>adicione o comando abaixo no final do arquivo: c:\Windows\System32\drivers\etc\hosts </p>
 
 ```
