@@ -1,6 +1,6 @@
 # api_cliente
 
-Configuração
+## Configuração
 
 <p>adicione o comando abaixo no final do arquivo: c:\Windows\System32\drivers\etc\hosts </p>
 
@@ -21,4 +21,6 @@ Configuração
         CustomLog "logs/local-api-cliente.com.br-access.log" common
     </VirtualHost>
 ```
+
+## EndPoints
 
