@@ -3,7 +3,9 @@
 Configuração
 
 <p>arquivo: c:\Windows\System32\drivers\etc\hosts </p>
-<p>adiciona no final: 127.0.0.1 local-api-cliente.com.br</p>
+```
+127.0.0.1 local-api-cliente.com.br
+```
 
 <br>
 
