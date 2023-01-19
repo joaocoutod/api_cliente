@@ -9,11 +9,13 @@ Configuração
 
 <p>arquivo: C:\xampp\apache\conf\extra\httpd-vhosts.conf </p>
 
-```<VirtualHost *:80>
-    ServerAdmin webmaster@local-api-cliente.com.br
-    DocumentRoot "C:\xampp\htdocs\projetos\api\api_cliente"
-    ServerName local-api-cliente.com.br
-    ErrorLog "logs/local-api-cliente.com.br-error.log"
-    CustomLog "logs/local-api-cliente.com.br-access.log" common
-</VirtualHost>´´´
+```
+    <VirtualHost *:80>
+        ServerAdmin webmaster@local-api-cliente.com.br
+        DocumentRoot "C:\xampp\htdocs\projetos\api\api_cliente"
+        ServerName local-api-cliente.com.br
+        ErrorLog "logs/local-api-cliente.com.br-error.log"
+        CustomLog "logs/local-api-cliente.com.br-access.log" common
+    </VirtualHost>
+´´´
 
