@@ -1,5 +1,3 @@
-# api_cliente
-
 ## Configuração
 
 <p>adicione o comando abaixo no final do arquivo: c:\Windows\System32\drivers\etc\hosts </p>
