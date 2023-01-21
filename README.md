@@ -56,7 +56,9 @@ exemplo abaixo:
 
 Editar Usuario</br>
 <b>UPDATE:</b> http://local-api-cliente.com.br/clientes/6
+```
 {
     "nome": "ana kee",
     "idade": 77
 }
+```
