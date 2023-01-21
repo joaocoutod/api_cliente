@@ -31,19 +31,19 @@
 ## EndPoints
 
 Mostra todos os Clientes</br>
-GET: http://local-api-cliente.com.br/clientes
+<b>GET:</b> http://local-api-cliente.com.br/clientes
 
 
 </br>
 
 Busca Clientes por ID</br>
-GET: http://local-api-cliente.com.br/clientes/6
+<b>GET:</b> http://local-api-cliente.com.br/clientes/6
 
 
 </br>
 
 Insere cliente</br>
-POST: http://local-api-cliente.com.br/clientes/</br>
+<b>POST:</b> http://local-api-cliente.com.br/clientes/</br>
 exemplo abaixo:
 ```
 {
@@ -54,3 +54,9 @@ exemplo abaixo:
 
 </br>
 
+Editar Usuario</br>
+<b>UPDATE:</b> http://local-api-cliente.com.br/clientes/6
+{
+    "nome": "ana kee",
+    "idade": 77
+}
