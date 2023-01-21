@@ -30,25 +30,27 @@
 
 ## EndPoints
 
-GET: http://local-api-cliente.com.br/clientes</br>
-Mostra todos os Clientes
+Mostra todos os Clientes</br>
+GET: http://local-api-cliente.com.br/clientes
+
 
 </br>
 
-GET: http://local-api-cliente.com.br/clientes/6</br>
-Busca Clientes por ID
+Busca Clientes por ID</br>
+GET: http://local-api-cliente.com.br/clientes/6
+
 
 </br>
 
-POST: http://local-api-cliente.com.br/clientes/</br>
 Insere cliente</br>
+POST: http://local-api-cliente.com.br/clientes/</br>
 exemplo abaixo:
 ```
 {
     "nome": "ana",
     "idade": 23
 }
-´´´
+```
 
 </br>
 
