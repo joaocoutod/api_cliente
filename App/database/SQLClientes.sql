@@ -12,9 +12,4 @@ INSERT INTO clientes(nome, idade) values("joao", 23);
 INSERT INTO clientes(nome, idade) values("lucas", 14);
 INSERT INTO clientes(nome, idade) values("kessia", 21);
 INSERT INTO clientes(nome, idade) values("ana", 15);
-
-DELETE FROM clientes WHERE id = 2;
-
-SELECT * FROM clientes;
-
 INSERT INTO clientes(nome, idade) VALUES("lucas22",23);
