@@ -62,3 +62,9 @@ Editar Usuario</br>
     "idade": 77
 }
 ```
+
+</br>
+
+Excluir Clientes por ID</br>
+<b>DELETE:</b> http://local-api-cliente.com.br/clientes/6
+
