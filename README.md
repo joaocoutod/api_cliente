@@ -8,9 +8,11 @@
 
 <p>adicione o comando abaixo no final do arquivo: c:\Windows\System32\drivers\etc\hosts </p>
 
+
 ```
     127.0.0.1 local-api-cliente.com.br
 ```
+<p>essa serar a url da api: local-api-cliente.com.br</p>
 
 <br>
 
