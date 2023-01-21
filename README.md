@@ -34,13 +34,13 @@ Mostra todos os Clientes</br>
 <b>GET:</b> http://local-api-cliente.com.br/clientes
 
 
-</br>
+<hr>
 
 Busca Clientes por ID</br>
 <b>GET:</b> http://local-api-cliente.com.br/clientes/6
 
 
-</br>
+<hr>
 
 Insere cliente</br>
 <b>POST:</b> http://local-api-cliente.com.br/clientes/</br>
@@ -52,7 +52,7 @@ exemplo abaixo:
 }
 ```
 
-</br>
+<hr>
 
 Editar Usuario</br>
 <b>UPDATE:</b> http://local-api-cliente.com.br/clientes/6
@@ -63,7 +63,7 @@ Editar Usuario</br>
 }
 ```
 
-</br>
+<hr>
 
 Excluir Clientes por ID</br>
 <b>DELETE:</b> http://local-api-cliente.com.br/clientes/6
