@@ -6,17 +6,17 @@
 
 <br>
 
-<p>adicione o comando abaixo no final do arquivo: c:\Windows\System32\drivers\etc\hosts </p>
+<p>Configure a rota copiando e colando o comando abaixo no final do arquivo que estar em: c:\Windows\System32\drivers\etc\hosts </p>
 
 
 ```
     127.0.0.1 local-api-cliente.com.br
 ```
-<p>essa serar a url da api: local-api-cliente.com.br</p>
+<p>Essa serar a rota da api: local-api-cliente.com.br</p>
 
 <br>
 
-<p>adicione o código abaixo no final do arquivo: C:\xampp\apache\conf\extra\httpd-vhosts.conf </p>
+<p>VirtualHost do xampp, copie e cole o codigo abaixo no final do arquivo em: C:\xampp\apache\conf\extra\httpd-vhosts.conf </p>
 
 ```
     <VirtualHost *:80>
@@ -29,4 +29,26 @@
 ```
 
 ## EndPoints
+
+GET: http://local-api-cliente.com.br/clientes
+Mostra todos os Clientes
+
+</br>
+
+GET: http://local-api-cliente.com.br/clientes/6
+Busca Clientes por ID
+
+</br>
+
+POST: http://local-api-cliente.com.br/clientes/
+Insere cliente
+exemplo abaixo:
+```
+{
+    "nome": "ana",
+    "idade": 23
+}
+´´´
+
+</br>
 
